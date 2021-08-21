@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
-
+<center>
+  <h4>lakmawi ah hian account i lo siam avangin ka lawm a, nimahsele i mi ngaihdamna ka dil ani.
+    in thlalak post tawh ho(static files) te hi min host tu te hian an save reng theilo thung a,
+    chuvangin update lo ngak rih phawt mai rawh u. cloud storage neih hun.
+  </h4>
+</center>
 {% for post in object_list %}
 <div class="card" style="width: auto; margin: 10px; float: left;">
   <img src="{{ post.image.url }}" class="card-img-top">
